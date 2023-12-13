@@ -36,10 +36,9 @@ Our deliverable is a Python-implemented E-Voting application using blind and dig
     (d) Computation of d, the inverse of e modulo ϕ(n).
     (e) Public announcement of the Public key: (n,e) while securing the private keys.
 
-![Alt text](output/Digital Signature Authentication - 1.png)
+<img width="1139" alt="Digital Signature Authentication - 1" src="https://github.com/vineela350/crypto/assets/60750419/554ef75b-3818-422c-91e2-590414b07ca2">
 
-![Alt text](output/Digital Signature Authentication - 2.png)
-
+<img width="1138" alt="Digital Signature Authentication - 2" src="https://github.com/vineela350/crypto/assets/60750419/17be0826-822e-48f8-a939-8fa50baa8877">
 
 
 ###### Digital Signature Authentication via RSA:
@@ -60,7 +59,7 @@ Our deliverable is a Python-implemented E-Voting application using blind and dig
          = (message_hash)^1 mod n 
          = (message_hash)
 
-![Alt text](output/Digital Signature Authenticated.png)
+<img width="1117" alt="Digital Signature Authenticated" src="https://github.com/vineela350/crypto/assets/60750419/7fc06633-2948-4ab5-b0e5-cc1f78ec2058">
 
 
 
@@ -74,7 +73,7 @@ Our deliverable is a Python-implemented E-Voting application using blind and dig
     (f) Submission of m' to the signing authority.
 
 
-![Alt text](output/Voter's Ballot Preparation.png)
+<img width="1122" alt="Voter's Ballot Preparation" src="https://github.com/vineela350/crypto/assets/60750419/1e27c50d-101f-4278-a196-35724935f964">
 
 
 ###### 3. Signing Authority's Ballot Authorization:
@@ -90,7 +89,7 @@ Our deliverable is a Python-implemented E-Voting application using blind and dig
     (d) Return of the signed ballot s' to the voter.
 
 
-![Alt text](output/Signing Authority's Ballot Authorization.png)
+<img width="1130" alt="Signing Authority's Ballot Authorization" src="https://github.com/vineela350/crypto/assets/60750419/8cdda70b-538a-4bdb-86f0-0518704010b4">
 
 
 ###### 4. Voter's Unblinding of Ballot:
@@ -108,7 +107,7 @@ Our deliverable is a Python-implemented E-Voting application using blind and dig
 
 
 
-###### 5. Ballot Verification: 
+###### 5. digital signature: 
 
     - The ballot includes the voter's choice and a number x, alongside the hash of this concatenated vote signed by the authority.
     - Verification is done by decrypting the signed hash message using the authority's public key.
@@ -126,7 +125,7 @@ Authentication Verification: Compare the calculated hash with the decrypted mess
 Vote Extraction: If the verification is successful, extract the vote as the first element of the concatenated message. This is done using the publicly known hash algorithm.
 
 
-![Alt text](output/Ballot Verification.png)
+<img width="1126" alt="Ballot Verification" src="https://github.com/vineela350/crypto/assets/60750419/c825a1b0-5a6f-40c3-b6cf-2b94fc2b8aac">
 
 
 ## Use
