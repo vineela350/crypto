@@ -104,7 +104,8 @@ Our deliverable is a Python-implemented E-Voting application using blind and dig
 
     (c) Sending the signature s to the ballot receiving location.
 
-![Alt text](output/Voter's Unblinding of Ballot.png)
+<img width="1107" alt=" Voter's Unblinding of Ballot" src="https://github.com/vineela350/crypto/assets/60750419/5b8f8746-517c-45e6-86c8-a8c20c8a99c1">
+
 
 
 ###### 5. Ballot Verification: 
